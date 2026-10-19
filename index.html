@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viaje F.M.</title>
+<style>
+  :root { --bg: #16130f; --fg: #ece4d4; --muted: #9a8f7a; --accent: #d8ccb4; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+         line-height: 1.6; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-weight: normal; letter-spacing: 2px; margin-bottom: 0; }
+  .tag { color: var(--muted); text-transform: uppercase; letter-spacing: 4px; font-size: 13px; margin-top: 4px; }
+  h2 { font-weight: normal; color: var(--accent); margin-top: 2em; }
+  a { color: var(--accent); }
+  footer { margin-top: 3em; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Viaje F.M.</h1>
+  <p class="tag">soft songs for late hours</p>
+
+  <h2>What this is</h2>
+  <p>Viaje F.M. is a small, self-hosted tool that runs an overnight
+  music radio as a YouTube Live stream. Each night, at a scheduled time, it
+  plays a playlist of licensed music from its own library and streams it to
+  the owner's YouTube channel, then ends the stream in the morning.</p>
+
+  <h2>How it uses YouTube</h2>
+  <p>The app signs in to <strong>one YouTube account only: the channel owner's
+  own account</strong>. It uses the YouTube Data API to create the nightly live
+  broadcast and attach the video stream to it. It does not access any other
+  person's account, and it is not offered to other users.</p>
+
+  <h2>Your data</h2>
+  <p>No data is shared with anyone or stored beyond the owner's own channel.
+  The app does not collect information about viewers, does not use cookies or
+  analytics, and does not sell or pass data to third parties.
+  Read the full <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>Viaje F.M. &middot; <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
